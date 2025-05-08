@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta  content="width=device-width, initial-scale=1.0" />
+  <title>ALEX集团 | 产品</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0a0a0a;
+      color: #0ff;
+      font-family: 'Orbitron', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .navbar {
+      position: absolute;
+      top: 1em;
+      left: 0;
+      right: 0;<
+      display: flex;
+      justify-content: center;
+      background-color: #111;
+      padding: 10px;
+    }
+    .navbar a {
+      color: #0ff;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2em 0;
+    }
+    .product-card {
+      background-color: #111;
+      margin: 1em;
+      padding: 1em;
+      border-radius: 10px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 255, 255, 0.2);
+    }
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .product-card h2 {
+      font-size: 1.5em;
+      color: #0ff;
+      margin: 1em 0;
+    }
+    .product-card p {
+      font-size: 1.2em;
+      color: #aaa;
+    }
+    footer {
+      position: absolute;
+      bottom: 1em;
+      font-size: 0.8em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="index.html">首页</a>
+    <a href="cp.html">产品</a>
+    <a href="gywm.html">关于我们</a>
+    <a href="jg.html">服务购买</a>
+  </div>
+
+  <!-- Product Section -->
+  <h1>我们的产品</h1>
+  <div class="product-container">
+    <!-- Product Card 1 -->
+    <div class="product-card">
+      <img src="cp2.jpg" alt="产品1" />
+      <h2>数据采集工具</h2>
+      <p>高效的数据采集系统，帮助企业快速提取网页信息。</p>
+    </div>
+
+    <!-- Product Card 2 -->
+    <div class="product-card">
+      <img src="cp1.jpg" alt="产品2" />
+      <h2>自动化处理平台</h2>
+      <p>全面的自动化数据处理平台，提升企业工作效率。</p>
+    </div>
+
+    <!-- Product Card 3 -->
+    <div class="product-card">
+      <img src="cp3.jpg" alt="产品3" />
+      <h2>数据分析工具</h2>
+      <p>精准的数据分析与可视化报告，帮助企业做出更好的决策。</p>
+    </div>
+  </div>
+
+  <footer>&copy; 2025 ALEX Group. All rights reserved.</footer>
+</body>
+</html>
