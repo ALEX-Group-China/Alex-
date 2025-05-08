@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta initial-scale=1.0" />
+  <title>ALEX集团 | 官方主页</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0a0a0a;
+      color: #0ff;
+      font-family: 'Orbitron', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+    }
+    .logo {
+      font-size: 4em;
+      font-weight: bold;
+      letter-spacing: 0.2em;
+      color: #0ff;
+    }
+    .tagline {
+      margin-top: 0.5em;
+      font-size: 1em;
+      color: #aaa;
+    }
+    footer {
+      position: absolute;
+      bottom: 1em;
+      font-size: 0.8em;
+      color: #555;
+    }
+    /* Navigation Styles */
+    .navbar {
+      position: absolute;
+      top: 1em;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      background-color: #111;
+      padding: 10px;
+    }
+    .navbar a {
+      color: #0ff;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #111;
+      min-width: 160px;
+      z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown-content a {
+      color: #0ff;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: #575757;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="index.html">首页</a>
+    <a href="cp.html">产品</a>
+    <div class="dropdown">
+      <a href="gywm.html">关于我们</a>
+
+      </div>
+    </div>
+
+
+  <!-- Main Content -->
+  <div class="logo">ALEX</div>
+  <h1>释放数据的力量</h1>
+  <p>我们是一家专业数据采集与自动化服务公司，致力于帮助企业从网络中提取有价值的信息。</p>
+  <div class="tagline">Data Unlocked. Insight Delivered.</div>
+
+  <footer>&copy; 2025 ALEX Group. All rights reserved.</footer>
+</body>
+</html>
