@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>服务与商店 | ALEX集团</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0a0a0a;
+      color: #0ff;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      padding: 1em;
+      border-bottom: 1px solid #0ff;
+    }
+
+    nav a {
+      color: #0ff;
+      margin: 0 1.5em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #f0f;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2em;
+    }
+
+    h1 {
+      text-align: center;
+      color: #0ff;
+    }
+
+    .product-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+    }
+
+    .product {
+      border: 1px solid #0ff;
+      padding: 1em;
+      border-radius: 8px;
+      background-color: #111;
+    }
+
+    .product h3 {
+      margin: 0;
+    }
+
+    .product p {
+      margin: 0.5em 0;
+    }
+
+    .product button {
+      margin-top: 0.5em;
+      padding: 0.5em 1em;
+      background-color: #0ff;
+      border: none;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .product button:disabled {
+      background-color: #555;
+      color: #aaa;
+      cursor: not-allowed;
+    }
+
+    .cart {
+      margin-top: 2em;
+      border-top: 1px solid #0ff;
+      padding-top: 1em;
+    }
+
+    .back-home {
+      text-align: center;
+      margin-top: 3em;
+    }
+
+    .back-home a {
+      color: #0ff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">首页</a>
+    <a href="cp.html">服务介绍</a>
+    <a href="gywm.html">关于我们</a>
+    <a href="lxwm.html">联系</a>
+  </nav>
+
+  <div class="container">
+    <h1>ALEX 技术服务商店</h1>
+
+    <div class="product-list">
+      <div class="product">
+        <h3>AI 智能系统</h3>
+        <p>暂未开放，预计 2027 年上线。</p>
+        <strong>价格：—</strong><br>
+        <button disabled>敬请期待</button>
+      </div>
+
+      <div class="product">
+        <h3>网络维护服务</h3>
+        <p>网站维护、防火墙配置、DDOS 预警等。</p>
+        <strong>价格：￥99 起</strong><br>
+        <button onclick="buyNow('网络维护服务')">立即购买</button>
+      </div>
+
+      <div class="product">
+        <h3>网页信息爬取</h3>
+        <p>定制化爬虫，支持登录页、动态加载、图片视频抓取。</p>
+        <strong>价格：￥89 起</strong><br>
+        <button onclick="buyNow('网页信息爬取')">立即购买</button>
+      </div>
+
+      <div class="product">
+        <h3>自动化脚本开发</h3>
+        <p>定时发布、数据处理、批量操作、桌面/网页脚本等。</p>
+        <strong>价格：￥129 起</strong><br>
+        <button onclick="buyNow('自动化脚本开发')">立即购买</button>
+      </div>
+    </div>
+
+    <div class="back-home">
+      <a href="index.html">返回首页</a>
+    </div>
+  </div>
+
+  <script>
+    function buyNow(service) {
+      // 跳转到你联系渠道或付款页面
+      window.location.href = 'https://t.me/+uU-jYBn9ERhhNDJl'; // 可换成订单页或客服对话
+    }
+  </script>
+</body>
+</html>
